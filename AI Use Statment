@@ -1,13 +1,11 @@
 # AI Use Statement
 
-**Summary**  
-Generative artificial intelligence tools accelerated development, improved documentation quality, and simplified repository maintenance, yet every suggestion was manually reviewed and validated before inclusion.
+**Summary**
+Generative AI helped craft the `Lubinsky_Final.ipynb` notebook, streamline documentation, and speed up maintenance tasks. All machine suggestions were reviewed, tested and edited by a contributor before committing.
 
-**Detailed explanation**  
-Coding support relied on ChatGPT and Gemini. These models were prompted to outline functions, refactor existing code, and clarify library behavior. All generated snippets were inspected line by line, unit tested, and revised to meet project style and performance requirements before any commit.
+**Detailed explanation**
+ChatGPT and Gemini were consulted to propose feature engineering steps, fairness checks and user interface elements for the notebook. Generated code was executed and manually revised to ensure accuracy and compliance with project guidelines.
 
-Language editing drew on the same models to enhance grammar, refine technical descriptions, and align documentation with the project voice. Draft text returned by the models was proofread for factual accuracy and cohesion, then integrated only after human approval.
+These same tools refined README language and answered questions about library behavior. GitHub Copilot (Codex) drafted commit messages and CI configurations. Every change passed human review and testing prior to merge.
 
-Repository operations used Codex through GitHub Copilot to draft commit messages, propose ignore patterns, and scaffold continuous integration workflows. Each change was introduced on a dedicated branch and merged after peer code review to preserve repository integrity.
-
-No model produced final artifacts without human oversight. Prompts excluded sensitive or proprietary data, and the resulting content is released under this repository’s license in accordance with the respective terms of each model provider.
+No AI output was accepted without oversight. Prompts contained no sensitive data, and all resulting content is released under the repository’s license in line with each model provider’s terms.
